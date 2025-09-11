@@ -56,7 +56,9 @@ In Scraper tab: paste profile URL → Start → when prompted, scroll Friends to
 Use Save CSV to export results.
 Switch PL/EN in Settings (stored in fb_scraper_config.json).
 
-## Troubleshooting NO_PUBKEY ED65462EC8D5E4C5
+## Troubleshooting 
+
+NO_PUBKEY ED65462EC8D5E4C5
 ```bash
 # 1) Fetch the new keyring directly into the system keyrings directory
 
