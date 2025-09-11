@@ -53,5 +53,27 @@ In Scraper tab: paste profile URL → Start → when prompted, scroll Friends to
 Use Save CSV to export results.
 Switch PL/EN in Settings (stored in fb_scraper_config.json).
 
+## Troubleshooting
 
+Playwright not installed
+```bash
+pip install playwright
+python -m playwright install --with-deps chromium
+```
 
+tkinter missing
+```bash
+sudo apt install -y python3-tk
+```
+
+Chromium fails to launch / missing libs
+```bash
+python -m playwright install --with-deps chromium
+sudo apt install -y libnss3 libatk-bridge2.0-0 libgtk-3-0 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libasound2 libxshmfence1 libgbm1
+```
+
+Use Google Chrome instead of Chromium (optional)
+
+```bash
+python -m playwright install chrome
+```
