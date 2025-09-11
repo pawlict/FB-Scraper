@@ -25,8 +25,8 @@ Includes:
 sudo apt update && sudo apt install -y git
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
+```
 # (ZIP alternative: GitHub → Code → Download ZIP → extract → cd into the folder)
-
 
 
 
