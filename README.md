@@ -22,14 +22,36 @@ Includes:
 sudo apt update
 sudo apt install -y python3-venv python3-tk python3-dev build-essential
 ```
-2) Get the code
- 
-
+2) Install Playwright browser (Chromium + deps)
+```bash 
+python -m playwright install --with-deps chromium
+```
+3) Get the code
 ```bash 
 sudo apt update && sudo apt install -y git
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
 ```
+4) Create & activate virtual environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip wheel
+```
+5) Python dependencies
+```bash
+pip install -r requirements.txt
+```
+6) Run the app
+```bash
+python FB_scraper.py
+```
+## First run – what to expect
+A Chromium window opens → log in to Facebook normally.
+Close the browser; cookies are saved to fb_cookies.json.
+In Scraper tab: paste profile URL → Start → when prompted, scroll Friends to the end → OK.
+Use Save CSV to export results.
+Switch PL/EN in Settings (stored in fb_scraper_config.json).
 
 
 
