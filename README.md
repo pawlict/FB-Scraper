@@ -19,7 +19,7 @@ Includes:
 ## Quick Start
 1) System update && upgrade
 ```bash 
-sudo apt update && sudo apt full-upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 2) System packages
 ```bash 
