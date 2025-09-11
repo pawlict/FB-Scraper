@@ -56,7 +56,7 @@ In Scraper tab: paste profile URL → Start → when prompted, scroll Friends to
 Use Save CSV to export results.
 Switch PL/EN in Settings (stored in fb_scraper_config.json).
 
-## Troubleshooting 
+##  ⚠️ Troubleshooting ⚠️ 
 
 NO_PUBKEY ED65462EC8D5E4C5
 ```bash
