@@ -18,42 +18,7 @@ Includes:
 
 ## Quick Start
 
-# INSTALL (Kali Linux) / INSTALACJA (Kali Linux)
-
-> A step-by-step setup guide for **Kali Linux**.  
-> See both **English** and **Polish** sections below.  
-> Repo example: `https://github.com/pawlict/FB-Scraper`
-
----
-
-## Table of contents
-- [🇬🇧 Kali Linux — Installation (EN)](#-kali-linux--installation-en)
-  - [Quickstart (one block)](#quickstart-one-block)
-  - [1) Get the code](#1-get-the-code)
-  - [2) System packages](#2-system-packages)
-  - [3) Virtual environment](#3-virtual-environment)
-  - [4) Python dependencies](#4-python-dependencies)
-  - [5) Playwright browser (Chromium + deps)](#5-playwright-browser-chromium--deps)
-  - [6) Run the app](#6-run-the-app)
-  - [First run](#first-run)
-  - [Troubleshooting](#troubleshooting)
-- [🇵🇱 Kali Linux — Instalacja (PL)](#-kali-linux--instalacja-pl)
-  - [Szybki start (jeden blok)](#szybki-start-jeden-blok)
-  - [1) Pobierz kod](#1-pobierz-kod)
-  - [2) Pakiety systemowe](#2-pakiety-systemowe)
-  - [3) Wirtualne środowisko](#3-wirtualne-środowisko)
-  - [4) Biblioteki Pythona](#4-biblioteki-pythona)
-  - [5) Playwright (Chromium + zależności)](#5-playwright-chromium--zależności)
-  - [6) Uruchom program](#6-uruchom-program)
-  - [Pierwsze uruchomienie](#pierwsze-uruchomienie)
-  - [Rozwiązywanie problemów](#rozwiązywanie-problemów)
-
----
-
-## 🇬🇧 Kali Linux — Installation (EN)
-
-### Quickstart (one block)
-```bash
+### 
 sudo apt update && sudo apt install -y git python3-venv python3-tk python3-dev build-essential
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
