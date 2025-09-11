@@ -18,7 +18,22 @@ Includes:
 
 ## Quick Start
 
-### 1) System prerequisites (Linux/Kali example)
-```bash
+# 1) System packages
 sudo apt update
-sudo apt install -y python3-venv python3-tk
+sudo apt install -y git python3-venv python3-tk python3-dev build-essential
+
+# 2) Get the code (use your repo if different)
+git clone https://github.com/pawlict/FB-Scraper.git
+cd FB-Scraper
+
+# 3) Virtual env + Python deps
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip wheel
+pip install -r requirements.txt
+
+# 4) Install Playwright browser with system deps
+python -m playwright install --with-deps chromium
+
+# 5) Run the app
+python3 FB_scraper.py
