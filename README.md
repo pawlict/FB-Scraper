@@ -17,15 +17,16 @@ Includes:
 - Save results to **CSV**
 
 ## Quick Start
+1) Get the code
 
-### Quickstart (one block)
+   
+
 ```bash 
-sudo apt update && sudo apt install -y git python3-venv python3-tk python3-dev build-essential
+sudo apt update && sudo apt install -y git
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
-python3 -m venv .venv && source .venv/bin/activate
-python -m pip install --upgrade pip wheel
-pip install -r requirements.txt
-python -m playwright install --with-deps chromium
-python FB_scraper.py
+# (ZIP alternative: GitHub → Code → Download ZIP → extract → cd into the folder)
+
+
+
 
