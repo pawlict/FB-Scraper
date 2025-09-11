@@ -4,7 +4,7 @@
 We maintain the code on a best-effort basis. If you find a security issue, please report it.
 
 ## Reporting a Vulnerability
-Please open a **private** report by emailing the author (Tomasz Pawlicki) or by creating a **confidential** security advisory on GitHub if available.  
+Please open a **private** report by emailing the author or by creating a **confidential** security advisory on GitHub if available.  
 Provide:
 - Affected version/commit hash,
 - Reproduction steps,
