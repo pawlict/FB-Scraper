@@ -17,32 +17,35 @@ Includes:
 - Save results to **CSV**
 
 ## Quick Start
-1) System packages
+1) System update && upgrade
 ```bash 
-sudo apt update
+sudo apt update && sudo apt full-upgrade -y
+```
+2) System packages
+```bash 
 sudo apt install -y python3-venv python3-tk python3-dev build-essential
 ```
-2) Install Playwright browser (Chromium + deps)
+3) Install Playwright browser (Chromium + deps)
 ```bash 
 python -m playwright install --with-deps chromium
 ```
-3) Get the code
+4) Get the code
 ```bash 
 sudo apt update && sudo apt install -y git
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
 ```
-4) Create & activate virtual environment
+5) Create & activate virtual environment
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip wheel
 ```
-5) Python dependencies
+6) Python dependencies
 ```bash
 pip install -r requirements.txt
 ```
-6) Run the app
+7) Run the app
 ```bash
 python FB_scraper.py
 ```
