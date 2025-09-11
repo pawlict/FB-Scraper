@@ -18,7 +18,8 @@ Includes:
 
 ## Quick Start
 
-### 
+### Quickstart (one block)
+```bash 
 sudo apt update && sudo apt install -y git python3-venv python3-tk python3-dev build-essential
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
