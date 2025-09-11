@@ -56,7 +56,23 @@ In Scraper tab: paste profile URL → Start → when prompted, scroll Friends to
 Use Save CSV to export results.
 Switch PL/EN in Settings (stored in fb_scraper_config.json).
 
-## Troubleshooting
+## Troubleshooting NO_PUBKEY ED65462EC8D5E4C5
+```bash
+# 1) Fetch the new keyring directly into the system keyrings directory
+
+sudo wget -O /usr/share/keyrings/kali-archive-keyring.gpg https://archive.kali.org/archive-keyring.gpg
+
+# 2) Set the official repo with signed-by (HTTPS!). This file can coexist with others,
+#    but avoid duplicates. Ideally, use this single definition going forward.
+echo 'deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] https://http.kali.org/kali kali-rolling main non-free non-free-firmware contrib' \
+| sudo tee /etc/apt/sources.list.d/kali-official.list >/dev/null
+
+# (optional) Comment out old "kali" entries in /etc/apt/sources.list to avoid duplicates:
+# sudo sed -i 's|^deb .*kali.*|# &|' /etc/apt/sources.list
+
+# 3) Refresh package indexes
+sudo apt-get update
+```
 
 Playwright not installed
 ```bash
