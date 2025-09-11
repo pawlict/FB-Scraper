@@ -17,16 +17,19 @@ Includes:
 - Save results to **CSV**
 
 ## Quick Start
-1) Get the code
-
-   
+1) System packages
+```bash 
+sudo apt update
+sudo apt install -y python3-venv python3-tk python3-dev build-essential
+```
+2) Get the code
+ 
 
 ```bash 
 sudo apt update && sudo apt install -y git
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
 ```
-# (ZIP alternative: GitHub → Code → Download ZIP → extract → cd into the folder)
 
 
 
