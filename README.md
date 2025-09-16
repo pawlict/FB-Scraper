@@ -35,20 +35,11 @@ sudo apt update && sudo apt install -y git
 git clone https://github.com/pawlict/FB-Scraper.git
 cd FB-Scraper
 ```
-5) Create & activate virtual environment
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip wheel
+5) Start program
+```bash 
+python3 FB-scraper.py
 ```
-6) Python dependencies
-```bash
-pip install -r requirements.txt
-```
-7) Run the app
-```bash
-python FB_scraper.py
-```
+
 ## First run – what to expect
 A Chromium window opens → log in to Facebook normally.
 Close the browser; cookies are saved to fb_cookies.json.
