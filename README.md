@@ -29,11 +29,13 @@ sudo apt install -y python3-venv python3-tk python3-dev build-essential
 ```bash 
 python -m playwright install --with-deps chromium
 ```
-4) Get the code
-```bash 
+4) Get the code inside venv folder
+```bash
+mkdir -p ~/projekty/FB_Scraper && cd ~/projekty/FB_Scraper
+python3 -m venv .FB_Scraper   
+source .SpiderFoot/bin/activate
 sudo apt update && sudo apt install -y git
 git clone https://github.com/pawlict/FB-Scraper.git
-cd FB-Scraper
 ```
 5) Start program
 ```bash 
