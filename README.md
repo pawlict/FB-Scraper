@@ -31,7 +31,8 @@ python -m playwright install --with-deps chromium
 ```
 4) Get the code inside venv folder
 ```bash
-mkdir -p ~/projekty/FB_Scraper && cd ~/projekty/FB_Scraper
+mkdir -p ~/projekty
+git clone https://github.com/pawlict/FB-Scraper.git
 python3 -m venv .FB_Scraper   
 source .SpiderFoot/bin/activate
 sudo apt update && sudo apt install -y git
