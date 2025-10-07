@@ -33,10 +33,9 @@ python -m playwright install --with-deps chromium
 ```bash
 mkdir -p ~/projekty
 git clone https://github.com/pawlict/FB-Scraper.git
-python3 -m venv .FB_Scraper   
-source .SpiderFoot/bin/activate
-sudo apt update && sudo apt install -y git
-git clone https://github.com/pawlict/FB-Scraper.git
+python3 -m venv .FB-Scraper   
+source .FB-Scraper/bin/activate
+cd FB-Scraper 
 ```
 5) Start program
 ```bash 
