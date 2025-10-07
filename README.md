@@ -25,11 +25,8 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```bash 
 sudo apt install -y python3-venv python3-tk python3-dev build-essential
 ```
-3) Install Playwright browser (Chromium + deps)
-```bash 
-python -m playwright install --with-deps chromium
-```
-4) Get the code inside venv folder
+
+3) Get the code inside venv folder
 ```bash
 mkdir -p ~/projekty
 git clone https://github.com/pawlict/FB-Scraper.git
@@ -38,7 +35,7 @@ source .FB-Scraper/bin/activate
 cd FB-Scraper
 pip install -r requirements.txt
 ```
-5) Start program
+4) Start program
 ```bash 
 python3 FB-scraper.py
 ```
