@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 4) Start program
 ```bash 
-python3 FB-scraper.py
+python3 FB_scraper.py
 ```
 
 ## First run – what to expect
