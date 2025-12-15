@@ -34,6 +34,7 @@ python3 -m venv .FB_Scraper
 source .FB_Scraper/bin/activate
 cd FB_Scraper
 pip install -r requirements.txt
+python3 -m playwright install chromium
 ```
 4) Start program
 ```bash 
