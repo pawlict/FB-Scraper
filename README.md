@@ -1,7 +1,10 @@
-# FB-Scraper
-Facebook friends list scraper (manual scroll)
+# FB-Scraper Beta
+![Version](https://img.shields.io/badge/version-v1-blue)
+![Python](https://img.shields.io/badge/python-3.8+-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
+---
 
-A simple GUI tool to collect a Facebook profile's **friends** list (manual scroll) using **Playwright** + **Tkinter**.  
+A simple GUI tool to collect a Facebook profile's **friends** list (manual scroll).  
 Includes:
 - **PL/EN internationalization** (switch in the **Settings** tab),
 - **Info** tab with **Author** and full **MIT License (AS IS)**,
@@ -10,13 +13,13 @@ Includes:
 
 > ⚠️ Use responsibly and in accordance with Facebook’s Terms of Service and local law. This tool does **not** bypass authentication; it relies on your own session cookies.
 
-## Features
+## ✨ Features
 - Manual “scroll friends page then parse” flow
 - Works with **Chromium** (via `playwright install chromium`)
 - **Polish / English** UI toggle
 - Save results to **CSV**
 
-## Quick Start
+## 🚀 Quick Start
 1) System update && upgrade
 ```bash 
 sudo apt-get update && sudo apt-get upgrade -y
