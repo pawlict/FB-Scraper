@@ -28,8 +28,8 @@ sudo apt install -y python3-venv python3-tk python3-dev build-essential
 
 3) Get the code inside venv folder
 ```bash
-mkdir -p ~/projects/FB_Scraper && cd ~/projects/FB_Scraper
-git clone https://github.com/pawlict/FB-Scraper.git
+mkdir -p ~/projects
+git clone https://github.com/pawlict/FB_Scraper.git
 python3 -m venv .FB_Scraper
 source .FB_Scraper/bin/activate
 cd FB_Scraper
